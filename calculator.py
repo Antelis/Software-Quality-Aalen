@@ -5,8 +5,11 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
+def multiply(a, b):
+    return a * b
+
 a = float(input("First number: "))
-op = input("Operator (+ or -): ")
+op = input("+, -, *, /: ")
 b = float(input("Second number: "))
 
 if op == '+':
